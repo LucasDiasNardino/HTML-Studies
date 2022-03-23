@@ -1,16 +1,36 @@
 <html>
     <head>
+        <link rel="stylesheet" href="poucoDeCSS.css">
         <title>Um Pocuo de CSS</title>
         <!--No style se coloca os códigos css-->
         <!-- pode-se aplicar um estilo a várias tags de mesmo nome, utilizar um id, elementos de mesma classe-->
         <style>
-
+            h1{
+                font-size: 40px;
+                background-color: #66ccff;
+            }
+            /*Criação de classe p aplicar nas classes html*/
+            .fundoVermelho{
+                background-color: red;
+            }
+            .negrito{
+                font-weight: bold;
+            }
+            /*p representar ids*/
+            #TextoPrincipal{
+                font-size:  40px;
+                font-weight: bold;
+                color: #fff;
+                padding: 10px;
+                background-color: #444;
+            }
         </style>
     </head>
     <body>
         <h1>CSS</h1>
         <!--Span é uma tag nao visual-->
-        <span id = "Texto Principal">Texto 1</span><br> <!--br quebra a linha-->
-        <span>Texto 2</span>
+        <span id = "TextoPrincipal">Texto 1</span><br><br><br>   <!--br quebra a linha-->
+        <span class = "fundoVermelho negrito">Texto 2</span><br><br>
+        <span class = "fundoVermelho">Texto 3</span>
     </body>
 </html>

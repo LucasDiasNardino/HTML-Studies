@@ -1,0 +1,19 @@
+h1{
+    font-size: 40px;
+    background-color: #66ccff;
+}
+/*Criação de classe p aplicar nas classes html*/
+.fundoVermelho{
+    background-color: red;
+}
+.negrito{
+    font-weight: bold;
+}
+/*p representar ids*/
+#TextoPrincipal{
+    font-size:  40px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px;
+    background-color: #444;
+}
